@@ -85,14 +85,14 @@ if (!price || price === undefined ) {
   <div className="m-auto w-full h-full">
     <p className="text-center text-2xl py-10">More Statistics</p>
     <p className="text-center text-md py-5">BTC/USD Historical Chart</p>
-  <iframe className="w-full h-3/6" src="https://widget.coinlib.io/widget?type=chart&theme=light&coin_id=859&pref_coin_id=1505"></iframe>
+  <iframe className="w-full h-3/6" title="graph1" src="https://widget.coinlib.io/widget?type=chart&theme=light&coin_id=859&pref_coin_id=1505"></iframe>
   <p className="text-center text-md py-5">Top Coins</p>
-  <iframe className="w-full h-96" src="https://widget.coinlib.io/widget?type=full_v2&theme=light&cnt=6&pref_coin_id=1505&graph=yes"></iframe>
+  <iframe className="w-full h-96" title="graph2" src="https://widget.coinlib.io/widget?type=full_v2&theme=light&cnt=6&pref_coin_id=1505&graph=yes"></iframe>
   </div>
  </div>
  
  <div className="text-right fixed bottom-0 w-full">
-  <iframe className="w-full max-h-10" src="https://widget.coinlib.io/widget?type=horizontal_v2&theme=light&pref_coin_id=1505&invert_hover="></iframe>
+  <iframe className="w-full max-h-10" title="graph3" src="https://widget.coinlib.io/widget?type=horizontal_v2&theme=light&pref_coin_id=1505&invert_hover="></iframe>
   <p className="bg-white text-md text-blue-800 font-bold p-2">Created by Web For Professionals, Copyright 2023</p></div>
  </div>
   );
